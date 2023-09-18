@@ -20,4 +20,10 @@ button {
     color: #ffeedf;
     font-size: 200px;
     font-family: 'montserrat', sans-serif;
+
+    position: absolute; /* taking the element out of the rendering flow */
+    top: 50%; /* placing the element that much away from the top edge of the viewport */
+    left: 50%;
+
+    transform: translate(-50%, -50%); /* moves away the element that much from itself */
 }
