@@ -20,7 +20,7 @@ function sumOfTwoNumbers(x, y) {
     let sum = 0;
     sum = x + y;
 
-    return sum;
+    return sum; /* return gives back the value of 'sum' */
 }
 
 logger(sumOfTwoNumbers(10, 5))
