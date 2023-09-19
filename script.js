@@ -1,3 +1,4 @@
+
 function logger(kismacska) {
     /* let kismacska = 'hello' */
     console.log(kismacska)
